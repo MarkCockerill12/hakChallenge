@@ -1,0 +1,249 @@
+/* Navbar CSS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.nav-link {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+}
+
+.nav-link:hover {
+  font-weight: 1000;
+}
+
+.accent {
+  background-color: rgb(22, 22, 22);
+}
+
+.font {
+  font-family: 'Poppins', sans-serif;
+}
+
+.underlined {
+  border-bottom: 3px solid #FAFAFF;
+}
+
+/* CSS for other stuff */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Dosis', sans-serif;
+  line-height: 1.6;
+  color: #666;
+}
+
+body {
+  background-color: rgb(45, 45, 45);
+  padding: 0px;
+}
+
+#root {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  padding: 0.5rem 1.5rem;
+  background-image: linear-gradient(120deg, #fbc2eb 0%, #a6c1ee 100%);
+  margin: 0 0 2rem 0;
+  font-size: 1.5rem;
+  color: black;
+  height: 10rem;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto; /* Centered the image */
+}
+
+p {
+  text-align: center;
+  padding: 10px;
+  margin-top: 50px !important;
+  color: white;
+  background-color: #000000;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 1rem;
+  background: black !important;
+  box-shadow: 2px 4px 25px rgba(0, 0, 0, .1);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all .2s linear;
+  outline: 2px white;
+  max-width: 350px;
+  max-height: 470px;
+}
+
+.card1 {
+  margin: 1rem;
+  background: black !important;
+  box-shadow: 2px 4px 25px rgba(0, 0, 0, .1);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all .2s linear;
+  outline: 2px white;
+}
+
+.card2 {
+  margin: 1rem;
+  background: black !important;
+  box-shadow: 2px 4px 25px rgba(0, 0, 0, .1);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all .2s linear;
+  outline: 2px white;
+  max-width: 500px;
+  max-height: 500px;
+}
+
+.card:hover {
+  box-shadow: 2px 8px 45px rgba(0, 0, 0, 0);
+  transform: translate3D(0, -7px, 0);
+}
+
+@media screen and (min-width: 600px) {
+  .card {
+    flex: 1 1 calc(50% - 2rem);
+  }
+
+  .mainpic {
+    padding: 0;
+  }
+
+  .left,
+  .right {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .card {
+    flex: 1 1 calc(33% - 2rem);
+  }
+}
+
+.card:nth-child(2n) h1 {
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
+
+.card:nth-child(4n) h1 {
+  background-image: linear-gradient(120deg, #ff9a9e 0%, #fecfef 100%);
+}
+
+.card:nth-child(5n) h1 {
+  background-image: linear-gradient(120deg, #ffc3a0 0%, #ffafbd 100%);
+}
+
+#enter {
+  float: right;
+}
+
+input {
+  float: right;
+}
+
+body {
+  background-image: url('https://wallpaperaccess.com/full/486696.png');
+  background-size: cover; /* Improved background image handling */
+}
+
+.secondary {
+  background-color: #000000;
+}
+
+.LogoImg {
+  width: 240px;
+  height: 150px;
+}
+
+a {
+  text-align: center;
+}
+
+h2,
+h3 {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.a {
+  color: blue;
+}
+
+.center {
+  margin: auto;
+  width: 100%; /* Centered the image */
+  display: block;
+}
+
+/* Retained custom rules */
+.update {
+  text-align: center;
+  padding: 10px;
+  margin-top: 50px !important;
+  color: white;
+  background-color: #000000;
+  background-size: contain;
+  list-style-position: inside;
+}
+
+header {
+  padding-bottom: 10px;
+}
+
+.mainpic {
+  padding: 30px;
+}
+
+
+
+/* Add this CSS to your existing stylesheet */
+
+@media screen and (min-width: 768px) {
+  .first,
+  .second,
+  .third,
+  .fourth {
+      width: calc(25% - 20px); /* Adjust the width and spacing as needed */
+      margin-right: 20px;
+  }
+
+  .fourth {
+      margin-right: 0; /* Remove right margin for the last image in the row */
+  }
+
+  .first,
+  .second,
+  .third,
+  .fourth {
+      margin-bottom: 10px;
+  }
+
+  .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+  }
+}
+
+.messageB{
+  background-color: white;
+  border: 5%;
+}

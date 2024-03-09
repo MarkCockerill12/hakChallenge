@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34408.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DuckGame", "DuckGame.csproj", "{CB73C6D8-16A5-406C-8908-A06122068E2F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CB73C6D8-16A5-406C-8908-A06122068E2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB73C6D8-16A5-406C-8908-A06122068E2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB73C6D8-16A5-406C-8908-A06122068E2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB73C6D8-16A5-406C-8908-A06122068E2F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1377B723-43F0-434B-884A-9F3FD1A29DE8}
+	EndGlobalSection
+EndGlobal

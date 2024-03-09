@@ -188,3 +188,66 @@ h3{
 .a{
   color:blue;
 }
+
+/* Add styles for basket area */
+#buying {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+/* Add styles for remove/undo button */
+.remove-button {
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.remove-button:hover {
+  background-color: #d9534f;
+}
+
+#budgetSection {
+  background-color: white;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+#searchInput {
+  max-width: 300px; /* Adjust as needed */
+}
+
+#searchButton {
+  margin-top: 10px;
+}
+
+#shoppingCart {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.basket-item {
+  margin: 0.5rem; /* Add margin to create space between items */
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  max-width: 200px; /* Adjust as needed */
+}
+
+#buying .card {
+  width: calc(30% - 20px); /* Adjust the width as per your preference */
+  margin-bottom: 20px;
+}

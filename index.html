@@ -41,20 +41,37 @@
           </li>
         </ul>
         <div class="d-flex justify-content-end" role="search">
-          <input class="form-control me-2 enter" type="text" placeholder="Enter Game Name" aria-label="Search"
-            id="GAMENAME">
-          <input type="submit" class="btn btn-primary float-center" onclick="search()">
-        </div>
+          <input class="form-control me-2 enter" type="text" placeholder="Search by title, category, description, or price" aria-label="Search" id="searchInput">
+          <button class="btn btn-primary" id="searchButton">Search</button>
+      </div>
       </div>
     </nav>
   </header>
 
   <main>
     <!--Main information part -->
-    <h2>Video Games:</h2>
-    <div id="root"> <br><br></div>
-    <h2>Info and Fanart:</h2>
-    <div id="info"> <br><br></div>
+    
+    <h2>Budget: </h2>
+    <div id="budgetSection" class="d-flex justify-content-between">
+        <div>
+            <input type="number" id="budgetInput" placeholder="Enter your budget">
+            <button onclick="setBudget()">Set Budget</button><br><br>
+            <div id="ogBudgetDisplay"> </div>
+            <div id="budgetDisplay"> </div>
+        </div>
+    </div>
+
+    <h2>Shopping Cart:</h2>
+    <div id="shoppingCart" class="d-flex flex-wrap justify-content-between"></div>
+    <br>
+    
+
+    <h2>Buying:</h2>
+    <div id="buying" class="d-flex flex-wrap justify-content-between"> <br><br></div>
+   
+    <br>
+
+
   </main>
   <footer>
     <div class="container-fluid secondary text-white border border-secondary">

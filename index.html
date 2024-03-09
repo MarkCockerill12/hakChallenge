@@ -1,74 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous" defer></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous" defer></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous" defer></script>
-    <link href="style.css" rel="stylesheet">
-    <title>For challenge</title>
+  <head>
+<!--bootsrap 5.2.3 -->
+<meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="API.css" rel="stylesheet">
+  <script src="API.js" defer></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous" defer></script>
+  <title>Homepage</title>
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-dark accent p-3" id="top">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse pb-2" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto">
-                    <li class="nav-item active underlined mx-3">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-
-    <main>
-        <!-- Main information part -->
-        <h3>Da website</h3>
-        <p>yeet</p>
-        <div>
-            <ul class="update">
-                <li>rawr</li>
-            
-            </ul>
+  <header>
+    <nav class="navbar navbar-expand-sm navbar-dark accent p-3" id="top">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse pb-2" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item active underlined mx-3">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link" href="contact_us.html">About Us</a>
+          </li>
+        </ul>
+        <div class="d-flex justify-content-end" role="search">
+          <input class="form-control me-2 enter" type="text" placeholder="Enter Game Name" aria-label="Search"
+            id="GAMENAME">
+          <input type="submit" class="btn btn-primary float-center" onclick="search()">
         </div>
-        <br>
-    </main>
+      </div>
+    </nav>
+  </header>
 
-    <footer>
-        <div class="footer footer-copyright text-light container-fluid secondary text-white border border-secondary">
-            <div class="row">
-                <div class="col">
-                    <p class="text-start my-3"> hi
-                        <button><a
-                                href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiD6fSuuICBAxX0WkEAHQxrDroQwqsBegQIERAB&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DdQw4w9WgXcQ&usg=AOvVaw0aHtehaphMhOCAkCydRLZU&opi=89978449">DONT
-                                CLICK</a></button>
-                    </p>
-                </div>
-            </div>
+  <main>
+    <!--Main information part -->
+    <h2>Video Games:</h2>
+    <div id="root"> <br><br></div>
+    <h2>Info and Fanart:</h2>
+    <div id="info"> <br><br></div>
+  </main>
+  <footer>
+    <div class="container-fluid secondary text-white border border-secondary">
+      <div class="row">
+        <div class="col-12 text-center">
+          <p class="footer-content">
+            <a class="px-2 text-light font" href="#top">Back to Top</a>
+          </p>
         </div>
+      </div>
+     <div class="row">
+          <div class="col">
+          <p class="text-start my-3"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</P>
+    
+          </div>
+          <div class="col">
+    
+          </div>
+        <div class="col-md-4">
+          <img src="./logo.png" class="float-end px-5 LogoImg" alt="logo image">
+      
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 text-center">
+          <p class="footer-copyright text-light">© Mark Cockerill, Troy Tsang All Rights Reserved.</p>
+      </div>
+    </div>
+    </div>
     </footer>
-
-</body>
-
-</html>
+    
+    </body>

@@ -1,5 +1,7 @@
 // Parse the CSV data into an array of arrays containing latitude and longitude pairs
-const csvData = `52.926777,-1.215878
+const csvData = `
+
+52.926777,-1.215878
 
 52.926777,-1.215878
 

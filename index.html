@@ -41,6 +41,14 @@
           </li>
         </ul>
         <div class="d-flex justify-content-end" role="search">
+          <div id="filterOptions">
+            <label for="sortBy">Sort by:</label>
+            <select id="sortBy">
+              <option value="nothin" >Default</option>
+              <option value="price" onclick="sortItemsByPriceLowToHigh()">Price (Low to High)</option>
+              <option value="alphabetical" onclick="sortItemsAlphabetically()">Alphabetical Order</option>
+            </select>
+          </div>
           <input class="form-control me-2 enter" type="text" placeholder="Search by title, category, description, or price" aria-label="Search" id="searchInput">
           <button class="btn btn-primary" id="searchButton">Search</button>
       </div>
@@ -55,9 +63,11 @@
     <div id="budgetSection" class="d-flex justify-content-between">
         <div>
             <input type="number" id="budgetInput" placeholder="Enter your budget">
-            <button onclick="setBudget()">Set Budget</button><br><br>
+            <button onclick="setBudget()">Set Budget</button><br>
             <div id="ogBudgetDisplay"> </div>
             <div id="budgetDisplay"> </div>
+            <div id="totalSpent">Total Money Spent: $0.00</div>
+
         </div>
     </div>
 
@@ -67,7 +77,15 @@
     
 
     <h2>Buying:</h2>
-    <div id="buying" class="d-flex flex-wrap justify-content-between"> <br><br></div>
+    
+    <div id="buying" class="d-flex flex-wrap justify-content-between"> <br><br>
+        
+        <div id="itemList">
+          <!-- Your item cards will be dynamically generated here -->
+        </div>
+    
+    
+    </div>
    
     <br>
 
@@ -91,7 +109,7 @@
     
           </div>
         <div class="col-md-4">
-          <img src="./logo.png" class="float-end px-5 LogoImg" alt="logo image">
+          <img src="./duck.jpg" class="float-end px-5 " alt="logo image">
       
         </div>
       </div>
